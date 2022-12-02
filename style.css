@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(43, 43, 43);
+}
+
+h2 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 1000;
+  position: absolute;
+  margin-top: -60px;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 1000;
+}
+
+.white-key h3 {
+  color: black;
+  padding-top: 230px;
+  padding-left: 25px;
+}
+
+.black-key h3 {
+  color: white;
+  padding-top: 115px;
+  padding-left: 8px;
+}
+
+#piano {
+  height: 290px;
+  padding: 90px 30px 5px 30px; /*top-left-bottom-right*/
+  background-color: rgb(109, 109, 109);
+  border-radius: 10px;
+}
+
+.keys {
+  position: relative;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.black-keys {
+  position: relative;
+  display: flex;
+}
+
+.white-key {
+  width: 68px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  border: solid #000 2px;
+}
+
+.black-key {
+  width: 38px;
+  height: 160px;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  background-color: #000;
+}
+
+.black-key:nth-child(1) {
+  left: 50px;
+}
+.black-key:nth-child(2) {
+  left: 125px;
+}
+.black-key:nth-child(3) {
+  left: 268px;
+}
+.black-key:nth-child(4) {
+  left: 340px;
+}
+.black-key:nth-child(5) {
+  left: 412px;
+}
+.black-key:nth-child(6) {
+  left: 555px;
+}
+.black-key:nth-child(7) {
+  left: 625px;
+}
+.black-key:nth-child(8) {
+  left: 700px;
+}
+.black-key:nth-child(9) {
+  left: 843px;
+}
+.black-key:nth-child(10) {
+  left: 915px;
+}
